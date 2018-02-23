@@ -38,6 +38,8 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
+ruby '2.4.3'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

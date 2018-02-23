@@ -1,4 +1,10 @@
 <div class="container">
+
+  <% if @cocktail.photo.file %>
+    <%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+  <% else %>
+    <%= image_tag 'default_cocktail.jpg' %>
+  <% end %>
   <h1><%= @cocktail.name %></h1>
   <%= link_to "Edit ingredients", new_cocktail_dose_path(@cocktail) %>
   <ul>

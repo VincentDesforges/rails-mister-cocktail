@@ -1,0 +1,17 @@
+.banner{
+
+  background-image: url('banner_bar.jpg');
+  background-size: cover;
+  // linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    color: white;
+  }
+}
+

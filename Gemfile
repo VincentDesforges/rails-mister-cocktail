@@ -40,6 +40,7 @@ gem 'jquery-rails'
 
 ruby '2.4.3'
 gem 'figaro'
+gem 'cloudinary'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
